@@ -1511,6 +1511,11 @@ sander@^0.5.0:
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
+schema-dts@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/schema-dts/-/schema-dts-1.1.0.tgz#33227971076ef1daa33e56a3127a8aae030e81c9"
+  integrity sha512-vdmbs/5ycj4zyKpZIDqTcy+IZi4s7c38RVAYuDmRi7zgxUT8wRWPMLzg0jr7FjdVunYu9yZ00F3+XcZTTFcTOQ==
+
 semver@^7.2.1, semver@^7.3.5:
   version "7.3.5"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.5.tgz#0b621c879348d8998e4b0e4be94b3f12e6018ef7"
@@ -1529,6 +1534,11 @@ shebang-regex@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
+
+simple-svelte-autocomplete@^2.3.9:
+  version "2.3.9"
+  resolved "https://registry.yarnpkg.com/simple-svelte-autocomplete/-/simple-svelte-autocomplete-2.3.9.tgz#ff00396c43570fbc8e1803d9c81b4b07ac6511a3"
+  integrity sha512-SxbFSss5Gbh24oVBUQ067KBGX5/LIIZtnqKRkkdlfxgC27ELM/odWQsJqBHQ72AzVqOSqhr8tA3oFwkIZXacCg==
 
 slash@^3.0.0:
   version "3.0.0"
@@ -1641,6 +1651,13 @@ svelte-hmr@^0.14.11:
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.14.11.tgz#63d532dc9c2c849ab708592f034765fa2502e568"
   integrity sha512-R9CVfX6DXxW1Kn45Jtmx+yUe+sPhrbYSUp7TkzbW0jI5fVPn6lsNG9NEs5dFg5qRhFNAoVdRw5qQDLALNKhwbQ==
 
+svelte-meta-tags@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/svelte-meta-tags/-/svelte-meta-tags-2.5.1.tgz#0ec8384ad09f22f692839270ee632d660dc80077"
+  integrity sha512-t2+2Ve0Rbmc5tZxUvaEv959PffkUsNk5afXSmgRbVbKiCAbsb2XhWJwUQdQDqeYlb3lRDLBywfwbjurdtb+NRQ==
+  dependencies:
+    schema-dts "1.1.0"
+
 svelte-preprocess@^4.0.0, svelte-preprocess@^4.10.1:
   version "4.10.4"
   resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.10.4.tgz#308a410266bfc55b4e608da8d552b63580141260"
@@ -1652,6 +1669,11 @@ svelte-preprocess@^4.0.0, svelte-preprocess@^4.10.1:
     magic-string "^0.25.7"
     sorcery "^0.10.0"
     strip-indent "^3.0.0"
+
+svelte-spotify-web-playback@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/svelte-spotify-web-playback/-/svelte-spotify-web-playback-1.0.3.tgz#334550feb2b448f9b569d7f0f53ae716f48d4aed"
+  integrity sha512-MKd79uZ3kFxTDXMz9Cv6yQCiK2lzSeuDEL+3FXs8KFW3+B2HANDZtYpaBKueVxhYcVLPLY/9Ml1wrBjALvd9vA==
 
 svelte@^3.44.0:
   version "3.46.4"

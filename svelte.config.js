@@ -14,9 +14,11 @@ const config = {
 	],
 
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({
+			fallback: '200.html',
+		}),
 		prerender: {
-			default: true,
+			// default: true,
 		},
 		paths: {
 			base: dev ? '' : '/elden-meme',
